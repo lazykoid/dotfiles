@@ -1,7 +1,18 @@
 # dotfiles
+My personal, unified, dotfiles for various distros!
+
+## Installation
+Use GNU/Stow for syslinking.
 
 ## Requirements
-Bat
-zoxide
-Exa
-Starship
+* Bat
+
+* Zoxide
+
+* Exa
+
+* Starship
+
+* Wget
+
+* Git
