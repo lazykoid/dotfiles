@@ -9,9 +9,6 @@ alias L='exa -l --sort=modified'          # long, sort by oldest to newest
 alias lk='exa -l --sort=size'             # sort by size
 alias lk.='exa -ld .* --sort=size'        # sort by size, only hidden files
 
-#   lr:  Full Recursive Directory Listing
-alias lr='exa -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
-
 alias cat='bat'
 
 # Other Alias
