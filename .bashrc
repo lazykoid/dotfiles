@@ -20,7 +20,7 @@ alias wget='wget -c'                # Preferred 'wget' implementation (resume do
 alias path='echo -e ${PATH//:/\\n}' # path:         Echo all executable Paths1
 alias dir='ls -hFx'
 alias l.='ls -d .* --color=tty' # short listing, only hidden files - .*
-alias l='ls -lathF'             # long, sort by newest to oldest
+alias l='ls'                    # long, sort by newest to oldest
 alias la='ls -Al'               # show hidden files
 alias lh='ls -lSrh'             # sort by size human readable
 alias lr='ls -lR'               # recursive ls
